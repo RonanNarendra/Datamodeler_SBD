@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Kunjungan Apartemen FK" directorySegmentName="seg_0" id="D625BF00-9FEB-593E-0B56-1E4932D58FE0">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:14:53 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<sourcePk>2E793F45-A313-46E5-6469-7EB4BAC9F6EA</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>Meliputi</nameOnSource>
+<nameOnTarget>Pernah Ada</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3E8A4D5A-8BD3-CB25-16C6-C5659F765451</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3563BBC2-2CF6-5109-9481-DB84ECB8AAA6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

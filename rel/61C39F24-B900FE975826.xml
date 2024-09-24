@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="61C39F24-7DED-CD8E-64F5-B900FE975826" mainViewID="4481E249-3EC4-2CC8-4343-7FCA6C47E8BE">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 14:50:18 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

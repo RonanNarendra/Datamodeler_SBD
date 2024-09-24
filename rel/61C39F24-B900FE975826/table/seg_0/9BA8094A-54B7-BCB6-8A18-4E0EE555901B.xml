@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BA8094A-54B7-BCB6-8A18-4E0EE555901B" name="Apartemen">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>3E8A4D5A-8BD3-CB25-16C6-C5659F765451</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Apart" id="B59E0530-820E-7689-4A07-137A426CBFDE">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>85163995-111F-E748-ED6F-6061B0479636</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_unit" id="2E3D218F-8D26-C89B-3C6F-78D6ED76F266">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>59068DA7-4514-96A6-E727-373F41CA7FF2</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipe" id="383CC526-DE12-89D8-998C-E3DCEDED0322">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>A7043C15-B495-5C5F-9DCA-1F6A7755B8DE</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="8063191A-2BEC-37F5-1B68-10994D10EDB6">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>D94C0D46-DC18-B38F-A75A-6FDF45DCF725</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proyek_ID_Proyek" id="033BF0DA-E2D0-DDC4-F678-93B41E927C85">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>89F5B66D-3121-BA9C-F3B3-3A7FFE980EE3</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5C1E8DF-A518-F3C5-7F99-BA3C86833FB8" referredColumn="862C1177-3D92-DAE7-2AB8-44531E01BFA2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD2DAED1-C91D-50A7-5705-E67B853A4D0A" name="Apartemen_PK">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>2E793F45-A313-46E5-6469-7EB4BAC9F6EA</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B59E0530-820E-7689-4A07-137A426CBFDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9433176E-367F-76BA-0DB2-156C7BA6C85B" name="Apartemen_Proyek_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>29FC9BDE-BBBE-C4C4-B568-BB933A47A5A7</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="033BF0DA-E2D0-DDC4-F678-93B41E927C85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

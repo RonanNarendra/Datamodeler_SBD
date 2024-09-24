@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EF57E99-BA88-B165-119F-4392917AC620" containerWithKeyObject="60891DDE-202E-409D-A9BD-30440743B34F" localFKIndex="3DEA4188-7A09-45C9-5177-E7F831DAA21C" name="Kunjungan_Apartemen_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>D625BF00-9FEB-593E-0B56-1E4932D58FE0</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<referredTableLongName>Apartemen</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9BA8094A-54B7-BCB6-8A18-4E0EE555901B</referredTableID>
+<keyObject>CD2DAED1-C91D-50A7-5705-E67B853A4D0A</keyObject>
+<referredKeyID>CD2DAED1-C91D-50A7-5705-E67B853A4D0A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Apart</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

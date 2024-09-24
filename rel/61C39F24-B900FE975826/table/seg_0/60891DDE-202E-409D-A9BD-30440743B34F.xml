@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60891DDE-202E-409D-A9BD-30440743B34F" name="Kunjungan">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>3563BBC2-2CF6-5109-9481-DB84ECB8AAA6</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Kunjungan" id="242B8370-EBB3-A890-1D90-B2664B079FA8">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>27668327-2983-63B5-2E37-F017ADEF6231</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tanggal_kunjungan" id="FB769337-1477-85EC-C220-4CEAC0CF9B54">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>708F0A2F-8D3C-4088-E12F-197D47856E7C</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apartemen_ID_Apart" id="8BF89DC6-CA99-A10D-CE2A-1429021EBAF9">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>A6F6BB2E-8228-740A-B741-2FF9A779B148</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EF57E99-BA88-B165-119F-4392917AC620" referredColumn="B59E0530-820E-7689-4A07-137A426CBFDE"/>
+</associations>
+</Column>
+<Column name="Catatan_Kunjungan" id="17572865-2CD0-C089-D8DB-A23259AD30F5">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>0F5B683F-42BE-D676-F25B-52472B8E50F5</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E125EEA6-8B3E-846E-9006-15DF9E70D07C" name="Kunjungan_PK">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>CE981E3C-A6BE-D182-D786-8CDA44A2C9F7</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="242B8370-EBB3-A890-1D90-B2664B079FA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DEA4188-7A09-45C9-5177-E7F831DAA21C" name="Kunjungan_Apartemen_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>D625BF00-9FEB-593E-0B56-1E4932D58FE0</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BF89DC6-CA99-A10D-CE2A-1429021EBAF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

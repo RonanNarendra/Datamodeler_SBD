@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E8A4D5A-8BD3-CB25-16C6-C5659F765451" name="Apartemen">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 15:38:43 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Apart" id="85163995-111F-E748-ED6F-6061B0479636">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 15:38:52 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama unit" id="59068DA7-4514-96A6-E727-373F41CA7FF2">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 15:39:18 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>35 CHAR</dataTypeSize>
+<ownDataTypeParameters>35 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipe" id="A7043C15-B495-5C5F-9DCA-1F6A7755B8DE">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 15:39:52 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="D94C0D46-DC18-B38F-A75A-6FDF45DCF725">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 15:41:01 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Proyek" id="89F5B66D-3121-BA9C-F3B3-3A7FFE980EE3">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:08:10 UTC</createdTime>
+<generatorID>29FC9BDE-BBBE-C4C4-B568-BB933A47A5A7</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<referedAttribute>E5383160-3736-5865-FDB4-7880851B1DB1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E793F45-A313-46E5-6469-7EB4BAC9F6EA" name="Apartemen PK">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 15:39:16 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>85163995-111F-E748-ED6F-6061B0479636</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Proyek Lokasi FK" directorySegmentName="seg_0" id="F8AAB6AD-7541-093C-D6EB-881334AF698F">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:03:34 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<sourcePk>62A9E27F-E962-8F5B-F2EE-A0388ABF9822</sourcePk>
+<targetPk>24ED9EDD-B869-848F-1FB6-1068475264E8</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Dikerjakan di</nameOnSource>
+<nameOnTarget>Digunakan untuk</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1C1A6469-B027-C883-ACA6-D3FBE8C0F592</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>32F5EADE-2567-24A3-B42A-6AD040C0A931</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

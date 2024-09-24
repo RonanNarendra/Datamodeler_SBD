@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C5C1E8DF-A518-F3C5-7F99-BA3C86833FB8" containerWithKeyObject="9BA8094A-54B7-BCB6-8A18-4E0EE555901B" localFKIndex="9433176E-367F-76BA-0DB2-156C7BA6C85B" name="Apartemen_Proyek_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>29FC9BDE-BBBE-C4C4-B568-BB933A47A5A7</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<referredTableLongName>Proyek</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FD308FEC-F8C9-1561-3162-DAFBEB0195F1</referredTableID>
+<keyObject>43E83B0F-DEAF-5D67-B7F3-4E46D080EB27</keyObject>
+<referredKeyID>43E83B0F-DEAF-5D67-B7F3-4E46D080EB27</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Proyek</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

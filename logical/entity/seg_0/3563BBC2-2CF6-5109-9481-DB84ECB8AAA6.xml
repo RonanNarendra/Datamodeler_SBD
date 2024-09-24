@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3563BBC2-2CF6-5109-9481-DB84ECB8AAA6" name="Kunjungan">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 15:19:26 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Kunjungan" id="27668327-2983-63B5-2E37-F017ADEF6231">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 15:19:41 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tanggal kunjungan" id="708F0A2F-8D3C-4088-E12F-197D47856E7C">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 15:20:08 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apartemen ID Apart" id="A6F6BB2E-8228-740A-B741-2FF9A779B148">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:14:53 UTC</createdTime>
+<generatorID>D625BF00-9FEB-593E-0B56-1E4932D58FE0</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<referedAttribute>85163995-111F-E748-ED6F-6061B0479636</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Catatan Kunjungan" id="0F5B683F-42BE-D676-F25B-52472B8E50F5">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:19:10 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE981E3C-A6BE-D182-D786-8CDA44A2C9F7" name="Kunjungan PK">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 15:20:05 UTC</createdTime>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<engineerTo>
+<item key="61C39F24-7DED-CD8E-64F5-B900FE975826" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>27668327-2983-63B5-2E37-F017ADEF6231</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

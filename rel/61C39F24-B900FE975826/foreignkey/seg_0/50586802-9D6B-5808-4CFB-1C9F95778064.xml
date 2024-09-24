@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50586802-9D6B-5808-4CFB-1C9F95778064" containerWithKeyObject="FD308FEC-F8C9-1561-3162-DAFBEB0195F1" localFKIndex="068FDE51-B79B-EB42-E132-766EC3A97A8D" name="Proyek_Lokasi_FK">
+<createdBy>ACER</createdBy>
+<createdTime>2024-05-15 16:20:03 UTC</createdTime>
+<generatorID>F8AAB6AD-7541-093C-D6EB-881334AF698F</generatorID>
+<ownerDesignName>Tugas1_SBD_672022123</ownerDesignName>
+<referredTableLongName>Lokasi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>30CF71C5-1ECD-F93E-2A87-EFDC48CCDB5F</referredTableID>
+<keyObject>A9C98992-DD39-E366-209E-A0A24464C687</keyObject>
+<referredKeyID>A9C98992-DD39-E366-209E-A0A24464C687</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Lokasi</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
